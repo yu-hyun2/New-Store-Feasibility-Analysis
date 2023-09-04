@@ -4,9 +4,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-import sys
-
-경로 = sys.path
+import os
+경로 = os.path.abspath(os.getcwd())
 st.write(경로)
 
 # 레이아웃
