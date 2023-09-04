@@ -4,6 +4,11 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
+import sys
+
+경로 = sys.path
+st.write(경로)
+
 # 레이아웃
 with st.container():
     col_0_0, col_0_1, col_0_2 = st.columns([1,3,1])
