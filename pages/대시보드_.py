@@ -28,7 +28,7 @@ with st.container():
     col_5_0, col_5_1, col_5_2, col_5_3 = st.columns([1,1,1,1])
 
 # 데이터 로드
-마트정보_5가지_점수 = pd.read_csv('/app/new-store-feasibility-analysis/streamlit/data/마트정보_5가지_점수.csv')
+마트정보_5가지_점수 = pd.read_csv('/mount/src/new-store-feasibility-analysis/streamlit/data/마트정보_5가지_점수.csv')
 
 with col_2_1:
     fig = go.Figure()
