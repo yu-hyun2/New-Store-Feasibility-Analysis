@@ -1,0 +1,4 @@
+streamlit
+koreanize-matplotlib
+scikit-learn
+plotly
