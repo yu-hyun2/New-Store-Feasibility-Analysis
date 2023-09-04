@@ -25,8 +25,8 @@ with st.container():
 
 
 # 데이터 로드
-광고 = pd.read_csv('/app/yuhyuns/data/광고.csv')
-df = pd.read_csv('/app/yuhyuns/data/날짜별_가게별_카테모리매출합.csv')
+광고 = pd.read_csv('/app/new-store-feasibility-analysis/streamlit/data/광고.csv')
+df = pd.read_csv('/app/new-store-feasibility-analysis/streamlit/data/날짜별_가게별_카테모리매출합.csv')
 df['date'] = pd.to_datetime(df['date'])
 df['년도'] = df['date'].dt.year
 df['월'] = df['date'].dt.month
